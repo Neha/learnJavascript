@@ -49,18 +49,18 @@ A simple examples to understand how Javascript and its concepts work.
 
 - How to access parents properties and methods
 
-    class CHILDSUBCLASS extends CLASSNAME {
+    ```class CHILDSUBCLASS extends CLASSNAME {
            constructor(parentProps){
                super(parentProps, Childprops);
                //CHILD LEVEL PROPERTIES GOES HERE
            }    
-        }
+        }```
 
 - How to create 3rd sub-child and inherit the 2nd child
 
- class CHILDSUB2ndCLASS extends CHILDSUBCLASS {
+ ```class CHILDSUB2ndCLASS extends CHILDSUBCLASS {
            constructor(parentProps){
                super(parentProps, Childprops);
                //CHILD LEVEL PROPERTIES GOES HERE
            }    
-        }
+        }```
