@@ -5,28 +5,28 @@ A simple examples to understand how Javascript and its concepts work.
 
 - How to define class
 
-    class CLASSNAME {
+    ```class CLASSNAME {
         //CODE GOES HERE
-    }
+    }```
 
 - How to define constrcutors
 
-    class CLASSNAME {
+    ```class CLASSNAME {
         constructor(){
             //INITIAL PROPERTIES GOES HERE
         }
-    }
+    }```
 
 - How to add methods
 
-     class CLASSNAME {
+     ```class CLASSNAME {
         constructor(){
             //INITIAL PROPERTIES GOES HERE
         }
         METHODNAME() {
             // CODE GOES HERE
         }
-    }
+    }```
 
 - How to get the class instance
 
@@ -34,17 +34,17 @@ A simple examples to understand how Javascript and its concepts work.
 
 - How to inherit the subclass from parent class
 
-     class CHILDSUBCLASS extends CLASSNAME {
+     ```class CHILDSUBCLASS extends CLASSNAME {
          //CODE GOES HERE
-     }
+     }```
 
 - How to add child properties
 
-    class CHILDSUBCLASS extends CLASSNAME {
+    ```class CHILDSUBCLASS extends CLASSNAME {
            constructor(){
                super();
                //CHILD LEVEL PROPERTIES GOES HERE
-           }    
+           } ``` 
         }
 
 - How to access parents properties and methods
